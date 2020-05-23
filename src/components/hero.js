@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div
       style={{
-        padding: "8rem 3rem",
+        padding: "11rem 3rem",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",

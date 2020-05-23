@@ -1,6 +1,5 @@
 import React from "react"
 
-import Tag from "./tag"
 import FeedbackImage from "./images/feedback"
 
 const Feedback = () => {
