@@ -7,6 +7,9 @@ import Hero from "../components/hero"
 import Intro from "../components/intro"
 import Skills from "../components/skills"
 import Feedback from "../components/feedback"
+import Actions from "../components/actions"
+import Accountable from "../components/accountable"
+import Evolve from "../components/evolve"
 
 const IndexPage = () => (
   <>
@@ -16,6 +19,9 @@ const IndexPage = () => (
       <Intro />
       <Skills />
       <Feedback />
+      <Actions />
+      <Accountable />
+      <Evolve />
     </Layout>
   </>
 )

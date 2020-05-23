@@ -1,8 +1,8 @@
 import React from "react"
 
-import FeedbackImage from "./images/feedback"
+import AccountableImage from "./images/accountable"
 
-const Feedback = () => {
+const Accountable = () => {
   return (
     <div
       style={{
@@ -29,7 +29,7 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Hold that thought
+          Stay accountable
         </h1>
         <h3
           style={{
@@ -39,7 +39,7 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Keep track of your feedback <br /> <b>during</b> the sprint.
+          Keep track of the action items <br /> your team set out to do.
         </h3>
         <h3
           style={{
@@ -49,7 +49,7 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Save your team hours of thinking <br /> about feedback on the spot.
+          Your next sprint will show them <br /> so you can tick them when done.
         </h3>
         <h3
           style={{
@@ -59,15 +59,15 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Team members can only see and <br /> delete their own feedback until{" "}
-          <br /> their sprint ends.
+          Track what your team is setting out to do <br /> and what they
+          actually accomplish.
         </h3>
       </div>
       <div style={{ width: "100%", height: "auto" }}>
-        <FeedbackImage />
+        <AccountableImage />
       </div>
     </div>
   )
 }
 
-export default Feedback
+export default Accountable

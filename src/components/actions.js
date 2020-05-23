@@ -1,8 +1,8 @@
 import React from "react"
 
-import FeedbackImage from "./images/feedback"
+import ActionsImage from "./images/actions"
 
-const Feedback = () => {
+const Actions = () => {
   return (
     <div
       style={{
@@ -13,12 +13,15 @@ const Feedback = () => {
         alignItems: "center",
       }}
     >
+      <div style={{ width: "100%", height: "auto" }}>
+        <ActionsImage />
+      </div>
       <div
         style={{
           display: "flex",
           flexDirection: "column",
           minWidth: "40%",
-          paddingLeft: "6%",
+          paddingRight: "6%",
         }}
       >
         <h1
@@ -29,7 +32,7 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Hold that thought
+          Convenient actions
         </h1>
         <h3
           style={{
@@ -39,7 +42,7 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Keep track of your feedback <br /> <b>during</b> the sprint.
+          When the sprint ends <br /> all feedback is revealed.
         </h3>
         <h3
           style={{
@@ -49,7 +52,7 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Save your team hours of thinking <br /> about feedback on the spot.
+          Feedback is anonymous. <br /> Nobody can see who sent it.
         </h3>
         <h3
           style={{
@@ -59,15 +62,23 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Team members can only see and <br /> delete their own feedback until{" "}
-          <br /> their sprint ends.
+          You can then go over the <br /> feedback and discuss the good
+          <br /> and the not so good.
         </h3>
-      </div>
-      <div style={{ width: "100%", height: "auto" }}>
-        <FeedbackImage />
+        <h3
+          style={{
+            color: "#fff",
+            fontSize: "1.7rem",
+            fontWeight: "500",
+            marginBottom: "0.3rem",
+          }}
+        >
+          If something requires a team <br /> action, you can easily create a
+          <br /> new action item.
+        </h3>
       </div>
     </div>
   )
 }
 
-export default Feedback
+export default Actions

@@ -1,8 +1,8 @@
 import React from "react"
 
-import FeedbackImage from "./images/feedback"
+import EvolveImage from "./images/evolve"
 
-const Feedback = () => {
+const Evolve = () => {
   return (
     <div
       style={{
@@ -13,12 +13,15 @@ const Feedback = () => {
         alignItems: "center",
       }}
     >
+      <div style={{ width: "100%", height: "auto" }}>
+        <EvolveImage />
+      </div>
       <div
         style={{
           display: "flex",
           flexDirection: "column",
           minWidth: "40%",
-          paddingLeft: "6%",
+          paddingRight: "6%",
         }}
       >
         <h1
@@ -29,7 +32,7 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Hold that thought
+          Evolve over time
         </h1>
         <h3
           style={{
@@ -39,7 +42,7 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Keep track of your feedback <br /> <b>during</b> the sprint.
+          Track your teams feedback and <br /> action items by sprint.
         </h3>
         <h3
           style={{
@@ -49,7 +52,7 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Save your team hours of thinking <br /> about feedback on the spot.
+          Compare action goals <br /> with actions completed.
         </h3>
         <h3
           style={{
@@ -59,15 +62,12 @@ const Feedback = () => {
             marginBottom: "0.3rem",
           }}
         >
-          Team members can only see and <br /> delete their own feedback until{" "}
-          <br /> their sprint ends.
+          All this data will help you track and <br /> improve your teams
+          performance.
         </h3>
-      </div>
-      <div style={{ width: "100%", height: "auto" }}>
-        <FeedbackImage />
       </div>
     </div>
   )
 }
 
-export default Feedback
+export default Evolve

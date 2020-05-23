@@ -33,7 +33,7 @@ const Hero = () => {
             ... for your t<span style={{ color: "#00CC78" }}>eam</span>
           </h1>
         </div>
-        <div style={{ color: "#fff", fontSize: "1.4rem", marginLeft: "2rem" }}>
+        <div style={{ color: "#fff", fontSize: "1.5rem", marginLeft: "2rem" }}>
           <p>
             Engineering teams use tools to make work efficient. <br />
             What about tools to make teams more efficient?
