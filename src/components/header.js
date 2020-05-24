@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import AddButton from "../components/images/addButton"
+import AddButtonImage from "../components/images/addButton"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -34,7 +34,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <div style={{ width: "12rem", height: "auto" }}>
-        <AddButton />
+        <AddButtonImage />
       </div>
     </div>
   </header>

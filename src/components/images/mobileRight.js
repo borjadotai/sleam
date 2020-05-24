@@ -13,12 +13,12 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const AddButtonImage = () => {
+const MobileImageRight = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "addButton.png" }) {
+      placeholderImage: file(relativePath: { eq: "mobileRight.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -29,4 +29,4 @@ const AddButtonImage = () => {
   return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-export default AddButtonImage
+export default MobileImageRight
