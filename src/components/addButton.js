@@ -14,7 +14,13 @@ const AddButton = () => {
       }}
     >
       <div style={{ width: "18rem", height: "auto" }}>
-        <AddButtonImage />
+        <a
+          href="https://slack.com/oauth/v2/authorize?client_id=1023998233617.1076945034196&scope=channels:history,channels:read,chat:write,groups:history,groups:read,im:history,im:read,mpim:history,mpim:read"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <AddButtonImage />
+        </a>
       </div>
     </div>
   )
