@@ -50,7 +50,7 @@ const Mobile = () => {
             marginBottom: "0.3rem",
           }}
         >
-          You can also enjoy it <br /> n your mobile phone!
+          You can also enjoy it <br /> on your mobile phone!
         </h3>
       </div>
       <div style={{ width: "20rem", height: "auto", marginRight: "2rem" }}>
