@@ -42,10 +42,30 @@ const Footer = () => (
           width: "40%",
         }}
       >
-        <span style={{ color: "#fff", fontSize: "1.2rem" }}>Contact us</span>
-        <span style={{ color: "#fff", fontSize: "1.2rem" }}>FAQ</span>
-        <span style={{ color: "#fff", fontSize: "1.2rem" }}>Privacy</span>
-        <span style={{ color: "#fff", fontSize: "1.2rem" }}>Terms</span>
+        <a
+          href="/contact"
+          style={{ color: "#fff", fontSize: "1.2rem", textDecoration: "none" }}
+        >
+          Contact us
+        </a>
+        <a
+          href="/faq"
+          style={{ color: "#fff", fontSize: "1.2rem", textDecoration: "none" }}
+        >
+          FAQ
+        </a>
+        <a
+          href="/legal"
+          style={{ color: "#fff", fontSize: "1.2rem", textDecoration: "none" }}
+        >
+          Privacy
+        </a>
+        <a
+          href="/legal"
+          style={{ color: "#fff", fontSize: "1.2rem", textDecoration: "none" }}
+        >
+          Terms
+        </a>
       </div>
       <span style={{ color: "#fff", fontSize: "1.2rem", marginLeft: "3.5rem" }}>
         © Sleam 2020 | Made with{" "}
